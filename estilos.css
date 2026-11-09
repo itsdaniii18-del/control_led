@@ -1,0 +1,61 @@
+
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #cccccc;
+}
+
+/* Título principal */
+h1 {
+    color: #333333;
+}
+
+/* Estilo general de los botones */
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/* Botón de conexión */
+#btnConectar {
+    background-color: #2878c8;
+}
+
+/* Botón de encendido */
+#btnEncender {
+    background-color: #28a745;
+}
+
+/* Botón de apagado */
+#btnApagar {
+    background-color: #dc3545;
+}
+
+/* Apariencia de los botones desactivados */
+button:disabled {
+    background-color: #ffe4e4;
+    cursor: not-allowed;
+}
+
+/* Mensajes de estado */
+#estadoConexion, #mensaje {
+    color: #333333;
+    margin-top: 20px;
+}
